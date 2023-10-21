@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/entreposage/static/css/main.721fea21.css",
+    "main.js": "/entreposage/static/js/main.369735c6.js",
+    "static/js/787.462a2af6.chunk.js": "/entreposage/static/js/787.462a2af6.chunk.js",
+    "static/media/calendar-svgrepo-com.svg": "/entreposage/static/media/calendar-svgrepo-com.4fa8fdad042b277d4ba8f7e40751f925.svg",
+    "static/media/map-svgrepo-com_1.svg": "/entreposage/static/media/map-svgrepo-com_1.e59ef4fc6fcbce932c76c2f6f659ee70.svg",
+    "static/media/temperature-svgrepo-com.svg": "/entreposage/static/media/temperature-svgrepo-com.7918eb090edba123b31f8d013ebdbefb.svg",
+    "static/media/security-camera-svgrepo-com.svg": "/entreposage/static/media/security-camera-svgrepo-com.25867ee209a7eecde631dce840210a20.svg",
+    "index.html": "/entreposage/index.html",
+    "main.721fea21.css.map": "/entreposage/static/css/main.721fea21.css.map",
+    "main.369735c6.js.map": "/entreposage/static/js/main.369735c6.js.map",
+    "787.462a2af6.chunk.js.map": "/entreposage/static/js/787.462a2af6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.721fea21.css",
+    "static/js/main.369735c6.js"
+  ]
+}
