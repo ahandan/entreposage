@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f05b00;
+    color: white;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
