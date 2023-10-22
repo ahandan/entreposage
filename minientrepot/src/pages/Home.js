@@ -17,35 +17,28 @@ const Logo = [map_logo, termometer, camera, calendar]
 
 export default function Home() {
   return (
-    <div className="home-page">
-      {/* <div className="header-image"> */}
-        {/* <img src={require("../assets/Imageofaheatedstorageunit.png")} alt="Header" /> */}
-      {/* </div> */}
-      <div className="description-section">
-        <h1>Location d'entreposage à Quebec</h1>
-        <p>
-          Bienvenue chez Mini Entreposage Quebec!
-          Mini Entreposage Quebec est un service de location d'entreposage à Québec.
-          Nos clients sont des propriétaires de logement en copropriété qui se retrouve avec des espaces de rangement trop petit, des gens d'affaires qui ont besoin de mini-entrepôts pour entreposer leurs documents, des voyageurs de commerce qui remisent leurs marchandises destinées au marché local, des gens qui déménagent et se retrouvent avec des meubles à entreposer.
-          Mini Entreposage Quebec offre des entrepôts à louer chauffés et sécurisés.
-          Nos mini-entrepôts sont conçus pour répondre à toutes vos attentes en ce qui a trait aux tarifs, localisation centrale et service.
-          C'est avec plaisir qu'on répond à toutes vos questions lorsque vous prenez contact avec nous.
-          Contactez-nous pour choisir l'entrepôt de votre choix!
-        </p>
-      </div>
-      <div className='features'>
-        {Descriptions.map((description, index) => (
-          <div className={'feature'} key={index}>
-            <div className="logo">
-              <img src={Logo[index]} alt="logo" />
-            </div>
-            <div className="text">
-              <h4>{Features[index]}</h4>
-              {description}
-            </div>
+      <div>
+        <div className="header-image">
+          <img src={require("../assets/garage.jpeg")} alt="Header" />
+        </div>
+        <div className="home-page">
+          <div className="description-section">
           </div>
-        ))}
-      </div>
+          <div className='features'>
+            <h1 className='features-title'> Des mini-entrepôts aux avantages multiples! </h1>
+            {Descriptions.map((description, index) => (
+              <div className={'feature'} key={index}>
+                <div className="logo">
+                  <img src={Logo[index]} alt="logo" />
+                </div>
+                <div className="text">
+                  <h4 className="title">{Features[index]}</h4>
+                  {description}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       <br/>
       <br/>
     </div>

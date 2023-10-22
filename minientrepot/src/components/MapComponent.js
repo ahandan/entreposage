@@ -8,15 +8,19 @@ const zoom = 14
 const icon = L.icon({
   iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+  iconAnchor: [0, 30]
 });
+
+// More here --> https://leaflet-extras.github.io/leaflet-providers/preview/
+const basemap = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
 
 export default function MapComponent() {
 
   return (
     <MapContainer center={position} zoom={zoom} style={{ height: "400px", width: "100%" }}>
       <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url={basemap}
+        // attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       <Marker position={position} icon={icon}>
         <Popup>

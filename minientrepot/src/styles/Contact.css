@@ -45,3 +45,16 @@ button {
     height: 20px;
     background-color: #f05b00;
 }
+
+
+@media (max-width: 768px) {
+    .contact-page .form-container,
+    .contact-page .map-container,
+    .contact-page .thank-you-message {
+        width: 95%;
+        padding: 10px;
+    }
+    button {
+        padding: 8px;
+    }
+}
